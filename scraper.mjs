@@ -25,9 +25,7 @@ for(let i = 4172; i>4162; i--){
     let imgSrc = $('td[align="middle"]>img').attr('src');
     let imgTitle = $('td[align="middle"]>img').attr('title');
     
-    console.log(imgSrc);
+    await sleep(1000)
     console.log(imgTitle);
-    
-
-
+    console.log(imgSrc);
 }
